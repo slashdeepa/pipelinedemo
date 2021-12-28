@@ -1,5 +1,5 @@
 pipeline{
-agent { label 'window'}
+agent {label 'window'}
 stages {
   stage('maven install') {
     steps {
